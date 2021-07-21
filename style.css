@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    color: rgb(244, 248, 17);
+}
+
+body {
+    background: url('https://images.pexels.com/photos/4955393/pexels-photo-4955393.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Varela Round', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+
+}
