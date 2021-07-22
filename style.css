@@ -16,5 +16,50 @@ body {
     font-family: 'Varela Round', sans-serif;
     margin: 0;
     min-height: 100vh;
+}
 
+button {
+    background-color: #3f1fa0;
+    border: none;
+    border-radius: 20%;
+    color: white;
+    position: fixed;
+    top: 20px;
+    right: 30px;
+    padding: 1rem;
+    transition: transform 0.3s ease-in-out;
+}
+
+button.active {
+    transform: translateX(-100px);
+}
+
+nav {
+    background-color: #3f1fa0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    padding: 2rem;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+}
+
+nav.active {
+    transform: translateX(0);
+}
+
+nav ul {
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+}
+
+nav ul li {
+    padding: 1rem 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
 }
